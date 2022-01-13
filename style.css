@@ -1,0 +1,84 @@
+li{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    width: 80vh;
+    height: 21.5vh;
+    background: lightblue;
+    border-radius: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    z-index: 99;
+    position: absolute;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+#primera{
+    padding-top: 10px;
+}
+
+#ultima{
+    padding-bottom: 10px;
+}
+
+.div{
+    position: absolute;
+    left: 25%;
+    background-color: white;
+    height: 37vh;
+    width: 94vh;
+    border-radius: 10px;
+    top: 20px;
+    border-bottom: 0px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+body{
+    background-color: rgb(205, 205 ,205);
+}
+
+img{
+    width: 200px;
+    height: 225px;
+    display: absolute;
+    margin-left: 10px;
+}
+
+#BorderImg{
+    background-color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 275px;
+    height: 250px;
+    margin-left: 210px;
+    position: absolute;
+    bottom: 17px;
+    top: 280px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+#Img{
+    background-color: lightblue;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 225px;
+    height: 252px;
+    bottom: 27px;
+    margin-left: 25px;
+    position: absolute;
+}
